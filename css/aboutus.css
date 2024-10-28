@@ -1,0 +1,145 @@
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    height: 100%;
+    background-image: url(../img/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#首页 {
+    color: rgb(32, 60, 198);
+}
+
+/* 导航栏设计 */
+.list1 {
+    display: flex;
+}
+
+.list1 a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: hidden;
+    right: 10px;
+}
+
+/* 鼠标浮动 */
+.list1 a:hover {
+    background-color: rgb(176, 174, 174);
+}
+
+header li {
+    padding: 10px;
+    position: relative;
+}
+
+header .list1 {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+/* h1位置大小设计 */
+header h1 {
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    cursor: default;
+}
+
+header {
+    background-color: rgba(191, 183, 183, 0.95);
+    top: 0px;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+}
+
+body {
+    display: flex;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+
+}
+
+.q1 {
+    position: fixed;
+    background-color: rgb(209, 209, 209);
+    box-shadow: 0 10px 20px rgba(0, 0, 1, 0.4);
+    height: 85%;
+    width: 170px;
+    margin-top: 2.5%;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.q1 ul {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+.q1 li {
+    display: flex;
+    height: 30px;
+    width: 130px;
+    margin: 60px 0;
+    border-radius: 15px;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+.q1 li:hover {
+    background-color: rgb(189, 187, 187);
+}
+
+.q1 li a {
+    color: rgb(95, 84, 84)
+}
+
+.q1 a:hover {
+    color: rgb(113, 46, 46);
+}
+
+.q2 {
+    box-shadow: 0 10px 20px rgba(0, 0, 1, 0.4);
+    border-radius: 15px;
+    overflow: auto;
+    margin-top: 2.5%;
+    height: 85%;
+    width: 600px;
+    background-color: rgb(202, 201, 201);
+    position: absolute;
+    margin-left: 35%;
+    border: hidden;
+}
+
+.q2 div {
+    margin: 0 15px;
+}
+
+.q2 a:hover {
+    color: grey;
+}
+
+.q2 p {
+    position: relative;
+    margin: 20px;
+}
